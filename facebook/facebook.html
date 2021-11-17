@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="static/images/lo.png" />
+        <ul>
+          <!-- abbr is the hint tag -->
+          <abbr title="intezar">
+            <li><img src="static/images/notification.png" /></li
+          ></abbr>
+          <li><img src="static/images/inbox.png" /></li>
+          <li><img src="static/images/video.png" /></li>
+        </ul>
+      </div>
+      <!-- it is my name -->
+      <!-- <div class="int">it is simple website looks like Facebook created by<br>Md Intezar Alam</div> -->
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="static/images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="static/images/pro.jpeg" />
+        </div>
+      </div>
+      <!-- it is settings menu -->
+      <div class="settings-menu">
+        <!-- ---------------------this is btn---------- -->
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner"></div>
+        <div class="user-profile">
+          <img src="static/images/k.png" />
+          <div>
+            <p>Rakesh Kumar</p>
+            <a href="#"> See Your Profile</a>
+          </div>
+        </div>
+        <hr />
+        <div class="user-profile">
+          <img src="static/images/fed.png" />
+          <div>
+            <p>Give Feedback</p>
+            <a href="#">Helps us to improve new design</a>
+          </div>
+        </div>
+        <hr />
+        <div class="settings-links">
+          <img src="static/images/se.png" class="settings-icons" />
+          <a href="#"
+            >Settings & Privicy <img src="static/images/ae.png" width="10px"
+          /></a>
+        </div>
+        <div class="settings-links">
+          <img src="static/images/help.png" class="settings-icons" />
+          <a href="#"
+            >Helpss & Supports <img src="static/images/ae.png" width="10px"
+          /></a>
+        </div>
+        <div class="settings-links">
+          <img src="static/images/disp.png" class="settings-icons" />
+          <a href="#"
+            >Display & Accessibility
+            <img src="static/images/ae.png" width="10px"
+          /></a>
+        </div>
+        <div class="settings-links">
+          <img src="static/images/log.png" class="settings-icons" />
+          <a href="#"
+            >Loughout <img src="static/images/ae.png" width="10px"
+          /></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- left-sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="static/images/news.png" />Latest News</a>
+          <a href="#"><img src="static/images/friends.png" />Friends</a>
+          <a href="#"><img src="static/images/group.png" />Group</a>
+          <a href="#"><img src="static/images/market.png" />Market Place</a>
+          <a href="#"><img src="static/images/watch.png" />Watch</a>
+          <a href="#"> See More</a>
+        </div>
+        <div class="shorcut-links">
+          <p>Our Shortcuts</p>
+          <a href="#"><img src="static/images/ca.png" />Web Developers</a>
+          <a href="#"><img src="static/images/cap.png" />Web Design course</a>
+          <a href="#"
+            ><img src="static/images/Capture.png" />Full stack Developers</a
+          >
+          <a href="#"><img src="static/images/c.png" />Website Expert</a>
+        </div>
+      </div>
+
+      <!-- main-content -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="static/images/p.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="static/images/e.png" />
+            <p>Lakshmi Kumari</p>
+          </div>
+          <div class="story story3">
+            <img src="static/images/int.png" />
+            <p>Chandana</p>
+          </div>
+          <div class="story story4">
+            <img src="static/images/n.png" />
+            <p>Neha</p>
+          </div>
+          <div class="story story5">
+            <img src="static/images/z.png" />
+            <p>Shivai</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="static/images/k.png" />
+            <div>
+              <p>Rakesh Kumar</p>
+              <small>public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="What do you think Rakesh kumar?">
+            </textarea>
+            <div class="ad-post-links">
+              <a href="#"><img src="static/images/li.png" /> Live Video</a>
+              <a href="#"
+                ><img src="static/images/cam.png" /> Photo Video Video</a
+              >
+              <a href="#"
+                ><img src="static/images/fi.png" /> Filling Activity</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="static/images/k.png" />
+              <div>
+                <p>Rakesh Kumar</p>
+                <span>Jan 23 2021, 12:30</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Learn More
+            <span> Knowledge for creating a complete website. </span> ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque accusantium
+            dignissimos. <a href="#">#Googl.com</a>
+            <a href="#">#Facebook.com</a>
+          </p>
+          <img src="static/images/can.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="static/images/lik.png" />120</div>
+              <div><img src="static/images/sh.png" />110</div>
+              <div><img src="static/images/co.pnf" />134</div>
+            </div>
+            <div class="post-profile-icons">
+              <img src="static/images/pro.jpeg" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="static/images/k.png" />
+              <div>
+                <p>Rakesh Kumar</p>
+                <span>Aug 26 2021, 12:30</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Once Agani Learn More
+            <span> Knowledge for creating a complete website. </span> ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque accusantium
+            dignissimos. <a href="#">#Googl.com</a>
+            <a href="#">#Facebook.com</a>
+          </p>
+          <img src="static/images/flower.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="static/images/lik.png" />320</div>
+              <div><img src="static/images/sh.png" />410</div>
+              <div><img src="static/images/co.pnf" />1234</div>
+            </div>
+            <div class="post-profile-icons">
+              <img src="static/images/pro.jpeg" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="static/images/k.png" />
+              <div>
+                <p>Rakesh Kumar</p>
+                <span>Aug 26 2021, 12:30</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Once Agani Learn More
+            <span> Knowledge for creating a complete website. </span> ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque accusantium
+            dignissimos. <a href="#">#Googl.com</a>
+            <a href="#">#Facebook.com</a>
+          </p>
+          <img src="static/images/pro.jpeg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="static/images/lik.png" />320</div>
+              <div><img src="static/images/sh.png" />410</div>
+              <div><img src="static/images/co.pnf" />1234</div>
+            </div>
+            <div class="post-profile-icons">
+              <img src="static/images/pro.jpeg" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="static/images/n.png" />
+              <div>
+                <p>Rakesh Kumar</p>
+                <span>Aug 26 2021, 12:30</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Once Agani Learn More
+            <span> Knowledge for creating a complete website. </span> ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque accusantium
+            dignissimos. <a href="#">#Googl.com</a>
+            <a href="#">#Facebook.com</a>
+          </p>
+          <img src="static/images/m.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="static/images/lik.png" />320</div>
+              <div><img src="static/images/sh.png" />410</div>
+              <div><img src="static/images/co.pnf" />1234</div>
+            </div>
+            <div class="post-profile-icons">
+              <img src="static/images/pro.jpeg" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="static/images/a.png" />
+              <div>
+                <p>Rakesh Kumar</p>
+                <span>Aug 26 2021, 12:30</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Once Agani Learn More
+            <span> Knowledge for creating a complete website. </span> ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque accusantium
+            dignissimos. <a href="#">#Googl.com</a>
+            <a href="#">#Facebook.com</a>
+          </p>
+          <img src="static/images/z.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="static/images/lik.png" />320</div>
+              <div><img src="static/images/sh.png" />410</div>
+              <div><img src="static/images/co.pnf" />1234</div>
+            </div>
+            <div class="post-profile-icons">
+              <img src="static/images/pro.jpeg" /><i
+                class="fas fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+      <!-- right-sidebar -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#"> See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>Jan</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i></p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>25</h3>
+            <span>Jun</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fas fa-map-marker-alt"></i>Hydrabad</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#"> Close</a>
+        </div>
+        <img src="static/images/fam.png" class="sidebar-ads" />
+        <div class="sidebar-title">
+          <h4>Convesation</h4>
+          <a href="#"> Hide Chart</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="static/images/a.png" />
+          </div>
+          <p>Lakshmi</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="static/images/e.png" />
+          </div>
+          <p>Neha</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="static/images/int.png" />
+          </div>
+          <p>Sharmila</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyrihgt 2021- Created by Md Intezar Alam</p>
+    </div>
+
+    <script src="Script1.js"></script>
+  </body>
+</html>
